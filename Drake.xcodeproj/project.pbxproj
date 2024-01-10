@@ -18,6 +18,8 @@
 		F6BA6E432AE00B5D00290016 /* RankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BA6E422AE00B5D00290016 /* RankView.swift */; };
 		F6BA6E462AE0147E00290016 /* Tracks.json in Resources */ = {isa = PBXBuildFile; fileRef = F6BA6E452AE0147E00290016 /* Tracks.json */; };
 		F6C0CEC42B1F3C3E00FCA75C /* randomSong .swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C0CEC32B1F3C3E00FCA75C /* randomSong .swift */; };
+		F6F1A5C62B45C088002EB55F /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F6F1A5C42B45C088002EB55F /* DataModel.xcdatamodeld */; };
+		F6F1A5CA2B45C21D002EB55F /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F1A5C92B45C21D002EB55F /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		F6BA6E422AE00B5D00290016 /* RankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankView.swift; sourceTree = "<group>"; };
 		F6BA6E452AE0147E00290016 /* Tracks.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Tracks.json; sourceTree = "<group>"; };
 		F6C0CEC32B1F3C3E00FCA75C /* randomSong .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "randomSong .swift"; sourceTree = "<group>"; };
+		F6F1A5C52B45C088002EB55F /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		F6F1A5C92B45C21D002EB55F /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 				F6BA6E262AE0029400290016 /* ContentView.swift */,
 				F6BA6E3C2AE00B2C00290016 /* SetView.swift */,
 				F6BA6E402AE00B4E00290016 /* SecondView.swift */,
+				F6F1A5C42B45C088002EB55F /* DataModel.xcdatamodeld */,
+				F6F1A5C92B45C21D002EB55F /* DataManager.swift */,
 				F670D45E2B15DE7A00533767 /* TrackStyle.swift */,
 				F6C0CEC32B1F3C3E00FCA75C /* randomSong .swift */,
 				F6BA6E422AE00B5D00290016 /* RankView.swift */,
@@ -168,11 +174,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F670D45F2B15DE7A00533767 /* TrackStyle.swift in Sources */,
+				F6F1A5CA2B45C21D002EB55F /* DataManager.swift in Sources */,
 				F679BBC22AE6BA590002BCBC /* JSONManager.swift in Sources */,
 				F6BA6E432AE00B5D00290016 /* RankView.swift in Sources */,
 				F6BA6E412AE00B4E00290016 /* SecondView.swift in Sources */,
 				F6BA6E3D2AE00B2C00290016 /* SetView.swift in Sources */,
 				F6BA6E272AE0029400290016 /* ContentView.swift in Sources */,
+				F6F1A5C62B45C088002EB55F /* DataModel.xcdatamodeld in Sources */,
 				F6C0CEC42B1F3C3E00FCA75C /* randomSong .swift in Sources */,
 				F6BA6E252AE0029400290016 /* DrakeApp.swift in Sources */,
 			);
@@ -378,6 +386,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F6F1A5C42B45C088002EB55F /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F6F1A5C52B45C088002EB55F /* DataModel.xcdatamodel */,
+			);
+			currentVersion = F6F1A5C52B45C088002EB55F /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F6BA6E192AE0029400290016 /* Project object */;
 }

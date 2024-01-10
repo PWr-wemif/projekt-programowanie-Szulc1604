@@ -6,6 +6,8 @@ struct ContentView: View {
     @State private var isPresented2 = false
     @State private var isPresented3 = false
     
+    @StateObject var dataManager = DataManager()
+    
     var body: some View {
         NavigationView{
         ZStack{
@@ -47,9 +49,10 @@ struct ContentView: View {
                             .padding(.bottom, 350)
                             .font(.system(size: 60))
                     }
-                    .sheet(isPresented: $isPresented1){
+                    .sheet(isPresented: $isPresented1) {
                         SecondView()
                     }
+
                     
                     
                 
@@ -57,6 +60,7 @@ struct ContentView: View {
                 
             }
             }
+            .environmentObject(dataManager)
         
     }
 }

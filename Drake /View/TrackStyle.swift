@@ -12,8 +12,8 @@ public struct TrackStyle{
             return Color.white
         case "Take Care":
             return Color(red: 27/255, green: 15/255, blue: 12/255)
-        case "Nothing Was The Same":
-            return Color(red: 17/255, green: 132/255, blue: 199/255)
+        case "Nothing Was the Same":
+            return Color.white
         case "If You're Reading This It's To Late":
             return Color.white
         case "What A Time To Be Alive":
@@ -50,8 +50,8 @@ public struct TrackStyle{
             return Color(red: 196/255, green: 63/255, blue: 63/255)
         case "Take Care":
             return Color(red: 158/255, green: 116/255, blue: 73/255)
-        case "Nothing Was The Same":
-            return Color.white
+        case "Nothing Was the Same":
+            return Color.blue
         case "If You're Reading This It's To Late":
             return Color.black
         case "What A Time To Be Alive":
